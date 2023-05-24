@@ -15,5 +15,6 @@
       "dom.iterable",
       "scripthost"
     ]
-  }
+  },
+  "exclude": ["node_modules", "dist"] // 除了这两个文件夹，其他都可以用@作为src的别名
 }
